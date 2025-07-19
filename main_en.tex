@@ -1,0 +1,90 @@
+%!BIB program = bibtex
+% !TeX TS-program = xelatex
+
+\documentclass{resume}
+\ResumeName{Jiarui Ji}
+
+% 如果想插入照片，请使用以下两个库.
+% \usepackage{graphicx}
+% \usepackage{tikz}
+
+\begin{document}
+
+\begin{textblock*}{2cm}(1cm, 1cm)
+  {\includegraphics[height=1.3cm]{figure/ruc_uni_logo.png}}
+  %{\includegraphics[height=1.3cm]{figure/Fudan_Uni_logo.svg.png}} % 你可以添加更多的学校 logo
+\end{textblock*}
+
+\ResumeContacts{
+  \faPhone\ 18051801365,
+  \ResumeUrl{mailto:2023100839@ruc.edu.cn}{\faEnvelope\ 2023100839@ruc.edu.cn},
+  \ResumeUrl{https://github.com/2829397175}{\faGithub\ Ji-Cather}
+}
+
+\ResumeTitle
+
+% \section{个人总结}
+% \begin{itemize}
+%   \item 
+%   \item 积极与团队成员在开发过程中交互，有一定的团队开发经验，具备良好的沟通与展示能力.更多信息可参见 \ResumeUrl{https://github.com/2829397175}{GitHub}.
+% \end{itemize}
+
+\section{Education}
+\ResumeItem
+[Tongji University|B.E.]
+{Tongji University}
+[\textnormal{Data Science from the School of Electronic and Information Engineering|} B.E.]
+[2019.09-2023.06]
+\textbf{GPA: 4.86/5.00; Rank: 2/37}. \textbf{Outstanding Graduates from Shanghai} (Top 5\% in Shanghai)、\textbf{National Scholarship} (Top 0.2\% Nationwide)
+\ResumeItem
+[Renmin University of China|M.E.]
+{Renmin University of China}
+[\textnormal{Gaoling School of Artificial Intelligence|} M.E.]
+[2023.09-Todate]
+\textbf{English: CET-6 score 633; CET-4 score 626}
+
+\section{Intern}
+
+\ResumeItem{\textbf{Megvii}}
+[Intern/C++]
+[]
+[2022.04-2023.06]
+\begin{itemize}
+  \item \textbf{Mge-Converter}: Developed opr converter from different deep-learning engines(e.g. pytorch) in Mge-Converter, \ResumeUrl{https://github.com/MegEngine/mgeconvert.git}{mgeconvert}.
+\end{itemize}
+\ResumeItem{\textbf{Alibaba Tongyi Lab}}
+[Intern/Research]
+[]
+[2024.03-2025.03]
+\begin{itemize}
+  \item \textbf{GAG}: Developed GraphAgent-Generator (GAG), a parallelized social graph synthesis framework leveraging agent-item bipartite modeling. First-author paper has been accepted at ACL-2025. \ResumeUrl{http://arxiv.org/abs/2410.09824}{arXiv}. \ResumeUrl{https://github.com/Ji-Cather/GraphAgent}{Code}.
+  \item \textbf{GAD}: Developed LLM-based predictive frameworks for dynamic graphs, addressing critical challenges in context-length constraints and domain variability. \ResumeUrl{https://arxiv.org/abs/2503.03258}{arXiv}.
+  \item \textbf{GDGB}: Proposed GDGB, the first comprehensive benchmark for dynamic text-attributed graph (DyTAG) generation, featuring 8 text-rich graph datasets and a newly designed evaluation pipeline. \ResumeUrl{https://arxiv.org/pdf/2507.03267}{arXiv}. \ResumeUrl{https://gdgb-algo.github.io/}{Website}. \ResumeUrl{https://github.com/Lucas-PJ/GDGB-ALGO}{Code}.
+\end{itemize}
+
+
+
+\section{Research}
+\ResumeItem{\textbf{SRAP-Agent}}
+[]
+[2023.07-2024.01]
+\begin{itemize}
+  \item Designed and implemented SRAP-Agent, a novel framework integrating LLMs into economic simulation for scarce public resource allocation (e.g., housing distribution in Beijing/Singapore). First-author paper accepted at EMNLP 2024. \ResumeUrl{http://arxiv.org/abs/2410.14152}{arXiv}. \ResumeUrl{https://github.com/Ji-Cather/SRAPAgent_Framework}{Code}
+\end{itemize}
+
+\ResumeItem{\textbf{CiteAgent}}
+[]
+[2024.03-2025.03]
+\begin{itemize}
+  \item Built an LLM-agent framework to model citation network evolution, revealing mechanisms behind power-law distributions, citation deflection, and diameter shrinkage in network science.
+  \item Proposed dual simulation methodologies to systematically explain complex network dynamics, advancing understanding of emergent network properties.
+  \item Code publicly available. \ResumeUrl{https://github.com/Ji-Cather/CiteAgent}{Code}.
+\end{itemize}
+
+\section[Skills]{Skills}
+\begin{itemize}
+  \item \textbf{Skills}: Git，GitHub，Markdown，Shell，SQL
+  \item \textbf{Coding}: Python，C/C++，JavaScript, C\#
+\end{itemize}
+
+\end{document}
